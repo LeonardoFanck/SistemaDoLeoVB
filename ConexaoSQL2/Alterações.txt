@@ -1,0 +1,4 @@
+ajustar o cancelar quando está em modo de edição - dando erro - [Feito]
+quando da 100% de desconto no pedido não aplica o valor [Feito]
+mudar o valor do item para text box [Feito]
+AJUSTAR TROCA DE VALOR DO ITEM	-> PEGAR O VALOR INFORMADO MANUALMENTE [AINDA NÃO] 

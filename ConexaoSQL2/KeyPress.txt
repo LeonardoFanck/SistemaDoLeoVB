@@ -1,0 +1,13 @@
+BLoqueia os caracteres especias
+
+
+'BLOQUEIA TODOS OS CARACTERES ESPECIAIS
+    If (KeyAscii >= 33 And KeyAscii <= 39) Or (KeyAscii >= 40 And KeyAscii <= 44) Or (KeyAscii >= 46 And KeyAscii <= 47) Or (KeyAscii >= 58 And KeyAscii <= 64) Or (KeyAscii >= 91 And KeyAscii <= 94) Or (KeyAscii >= 123 And KeyAscii <= 126) Or (KeyAscii >= 162 And KeyAscii <= 163) Or KeyAscii = 95 Or KeyAscii = 168 Or KeyAscii = 172 Or KeyAscii = 176 Or (KeyAscii >= 178 And KeyAscii <= 180) Or KeyAscii = 185 Or KeyAscii = 96 Then
+        KeyAscii = 0
+    End If
+
+
+ele só vai aceitar números e o backspace.
+ If Not (KeyAscii >= 48 And KeyAscii <= 57 Or KeyAscii = 8) Then
+       KeyAscii = 0
+    End If
